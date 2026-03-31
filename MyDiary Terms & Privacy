@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyDiary Terms & Privacy</title>
+  <style>
+    :root {
+      --bg: #f4f1ea;
+      --panel: #fffdf8;
+      --text: #1f2430;
+      --muted: #5c6475;
+      --line: #ddd6c8;
+      --accent: #355c7d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at top left, #efe8da 0, transparent 32%),
+        linear-gradient(180deg, #f7f3ec 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 18px 56px;
+    }
+    .hero {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 16px 40px rgba(29, 33, 41, 0.06);
+    }
+    .eyebrow {
+      color: var(--accent);
+      font-size: 0.95rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      margin: 0 0 10px;
+    }
+    h1, h2 {
+      margin: 0 0 12px;
+      line-height: 1.2;
+    }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 28px;
+    }
+    p {
+      margin: 0 0 14px;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-top: 18px;
+    }
+    .card {
+      background: rgba(255, 253, 248, 0.84);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px;
+    }
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 1.05rem;
+    }
+    .section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      padding: 28px;
+      margin-top: 18px;
+      box-shadow: 0 12px 30px rgba(29, 33, 41, 0.04);
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+      color: var(--muted);
+    }
+    li { margin-bottom: 10px; }
+    .note {
+      margin-top: 20px;
+      padding: 16px 18px;
+      border-left: 4px solid var(--accent);
+      background: #f2f6fa;
+      border-radius: 14px;
+      color: var(--text);
+    }
+    .footer {
+      margin-top: 20px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">Effective 2026-03-26 · Version 1</p>
+      <h1>MyDiary Terms & Privacy</h1>
+      <p>
+        MyDiary stores journal content on your device by default. Backup and cloud sync are optional convenience
+        features, not guaranteed storage or recovery services.
+      </p>
+      <div class="grid">
+        <div class="card">
+          <h3>Local first</h3>
+          <p>Entries, media, and settings stay on your device unless you choose to back up or sync them.</p>
+        </div>
+        <div class="card">
+          <h3>Cloud is optional</h3>
+          <p>Google Drive sync only starts when you choose to sign in and enable cloud features.</p>
+        </div>
+        <div class="card">
+          <h3>Your responsibility</h3>
+          <p>You should keep your own backups for anything important and verify restores before relying on them.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Terms of Use</h2>
+      <ul>
+        <li>MyDiary is provided on an as-is and as-available basis.</li>
+        <li>You are responsible for the content you write, the files you export, and the backups you keep.</li>
+        <li>Backup, restore, and sync depend on your device, your storage, your network, and third-party services such as Google Drive and Firebase.</li>
+        <li>Those services and features may fail, be delayed, conflict, duplicate content, or become unavailable without notice.</li>
+        <li>To the extent permitted by applicable law, MyDiary does not guarantee that any entry, attachment, backup, or synced copy can always be preserved, restored, or recovered.</li>
+      </ul>
+      <div class="note">
+        Data may be lost, corrupted, duplicated, delayed, or become unavailable because of device failure, app defects,
+        user actions, sync conflicts, account issues, or third-party outages.
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Privacy Policy</h2>
+      <ul>
+        <li>Your diary content is stored locally on your device by default.</li>
+        <li>If you enable Google Drive sync, MyDiary uses the Google account you choose only for backup, restore, and sync features you start.</li>
+        <li>When you sign in, MyDiary stores limited account and device metadata in Firebase so your Android and Windows devices can be linked and managed.</li>
+        <li>This may include your email address, Firebase account ID, sign-in provider, device ID, device model, platform details, and sync timestamps.</li>
+        <li>If available from your Google account, display name and profile photo may also be stored for account display.</li>
+        <li>MyDiary does not sell your diary data.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Your Control</h2>
+      <ul>
+        <li>You can stop cloud features at any time by signing out.</li>
+        <li>Removing app data or uninstalling the app removes local content from that device.</li>
+        <li>Exported files and local backups remain under your control and should be stored securely by you.</li>
+      </ul>
+      <p class="footer">
+        Contact: replace this line with your real support or legal contact email before publishing.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
