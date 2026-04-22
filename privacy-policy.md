@@ -85,7 +85,16 @@ We may update this Privacy Policy when app features, storage behavior, permissio
 
 The latest version will be posted on this page with an updated effective date.
 
-## 11. Contact
+## 11 International users and regional rights
+
+Life Diary may be used by people in different countries and regions. Privacy rights can vary depending on where you live. Depending on applicable law, you may have rights to access, correct, export, delete, or restrict use of your personal information.
+
+Life Diary stores diary content locally on your device by default. If you enable Google Drive sync, your backup and sync files are stored in the Google account you choose and may be processed by Google in accordance with Google’s own terms and privacy policies, including possible processing in countries outside your country of residence.
+
+To exercise privacy-related rights for information controlled by Life Diary, contact us at vikaschoudhary.ara@gmail.com. To manage or delete data stored in your Google Account or Google Drive, use your Google Account and Google Drive controls.
+
+
+## 12. Contact
 
 If you have questions about this Privacy Policy, contact:
 
